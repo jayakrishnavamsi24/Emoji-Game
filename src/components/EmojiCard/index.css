@@ -1,0 +1,50 @@
+li {
+  list-style-type: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.emoji-card {
+  background-color: #ffffff33;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff30;
+  border-radius: 10px;
+}
+
+.emoji-img {
+  width: 60px;
+}
+
+@media screen and (max-width: 576px) {
+  li {
+    margin-right: 7px;
+    margin-bottom: 7px;
+  }
+
+  .emoji-card {
+    height: 85px;
+    width: 85px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff30;
+    border-radius: 10px;
+  }
+
+  .emoji-img {
+    width: 45px;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .emoji-card {
+    cursor: pointer;
+    outline: none;
+  }
+}
